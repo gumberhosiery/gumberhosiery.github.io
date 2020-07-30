@@ -3111,6 +3111,10 @@ table.alt tbody tr td {
   width: 16em;
 }
 
+.brand img {
+  width: 16em;
+}
+
 @media screen and (max-width: 980px) {
   .spotlight {
     -moz-flex-direction: column-reverse;
@@ -3157,6 +3161,9 @@ table.alt tbody tr td {
   }
 
   .spotlight .image img {
+    width: 12em;
+  }
+  .brand img {
     width: 12em;
   }
 }
